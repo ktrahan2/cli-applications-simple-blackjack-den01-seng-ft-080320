@@ -58,6 +58,11 @@ end
 def runner
   welcome
   initial_round
-  hit?(sum)
+  prompt_user
+  answer = hit?(number)
+  if answer == 's'
+    hit?(number)
+  
+  
 end
     
