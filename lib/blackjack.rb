@@ -57,11 +57,9 @@ end
 
 def runner
   welcome
-  initial_round
-  prompt_user
-  answer = hit?(number)
-  if answer == 's'
-    hit?(number)
+  players_hand = initial_round
+  hit?(players_hand)
+  
   
   
 end
