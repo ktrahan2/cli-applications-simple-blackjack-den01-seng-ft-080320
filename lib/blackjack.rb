@@ -62,7 +62,7 @@ def runner
     players_hand = hit?(players_hand)
     players_hand = display_card_total(players_hand)
   end
-end_game
+  end_game(players_hand)
   
   
   
