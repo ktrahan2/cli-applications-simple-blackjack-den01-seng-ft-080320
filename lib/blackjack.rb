@@ -59,7 +59,8 @@ def runner
   welcome
   players_hand = initial_round
   while players_hand < 21
-    
+    players_hand = hit?(players_hand)
+    players_hand = 
   
   
   
